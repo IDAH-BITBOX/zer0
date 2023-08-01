@@ -7,8 +7,19 @@ export const Header =()=> {
     return(
         <Container>
             <Title>
-                Zer0's World
+                <PopupText>
+                    <p1>
+                        Zer0
+                    </p1>
+                    <p2>
+                        's
+                    </p2>
+                    <p3>
+                        &nbsp;World
+                    </p3>
+                </PopupText>
             </Title>
+            <HideBox />
             <LogoImg>
                 <RotImg rotSec="2s">
                     <div>
@@ -67,6 +78,62 @@ const Title = styled.div`
     font-size:5vh;
     color:#5D5D76;
     font-weight:700;
+`;
+
+const HideBox = styled.div`
+    margin-top:1vh;
+    display:flex;
+    justify-content:center;
+    width:30vh;
+    height:100%;
+    z-index:50;
+    background-color:#ffffff;
+    animation: fadeout 1.2s linear 1;
+    animation-delay: 0.1s;
+
+    @keyframes fadeout {
+        from {
+            border-top: 3px solid #5D5D76;
+        }
+        to {
+            border-top: 0px solid #5D5D76;
+        }
+    }
+`;
+
+const PopupText = styled.div`
+    display:flex;
+    position:absolute;
+    p1 {
+        animation: popup 1s linear 1;
+        animation-delay: 0.1s;
+    }
+    p2 {
+        animation: popup 1s linear 1;
+        animation-delay: 0.5s;
+    }
+    p3 {
+        animation: popup 1s linear 1;
+        animation-delay: 1s;
+    }
+
+    @keyframes popup {
+        from {
+            padding-top:3vh;
+        }
+        to {
+            padding-top:0vh;
+        }
+    }
+
+    @keyframes fadein {
+        from {
+            color:#ffffff;
+        }
+        to {
+            color:#ffffff;
+        }
+    }
 `;
 
 const LogoImg = styled.div`

@@ -13,7 +13,11 @@ export const Home =()=> {
             <Top>
                 <Content>
                     <h3>
-                        기본 프로필
+                        <PopupText>
+                            <p4>
+                                기본 프로필
+                            </p4>
+                        </PopupText>
                     </h3>
                     <p1>
                         - 경희대학교 물리학과 학사 졸업
@@ -27,7 +31,11 @@ export const Home =()=> {
                 </Content>
                 <Content>
                     <h3>
-                        기술 스택
+                        <PopupText>
+                            <p4>
+                                기술 스택
+                            </p4>
+                        </PopupText>
                     </h3>
                     <p1>
                         - Python: numpy, numba, pandas, bokeh, fastapi 
@@ -43,7 +51,11 @@ export const Home =()=> {
             <Bottom>
                 <Content>
                     <h3>
-                        경력
+                        <PopupText>
+                            <p5>
+                                경력
+                            </p5>
+                        </PopupText>
                     </h3>
                     <p1>
                         - 키키아이: 1년 (2022.08 ~ 2023.08)
@@ -57,7 +69,11 @@ export const Home =()=> {
                 </Content>
                 <Content>
                     <h3>
-                        취미
+                        <PopupText>
+                            <p5>
+                                취미
+                            </p5>
+                        </PopupText>
                     </h3>
                     <p1>
                         - 노래 부르기, 초보적인 작곡
@@ -136,5 +152,58 @@ const Content = styled.div`
         color:#8585EB;
         font-size:1.8vh;
         font-weight: 600;
+    }
+`;
+
+const PopupText = styled.div`
+    display:flex;
+    position:absolute;
+    p4 {
+        animation: popup2 0.5s linear 1;
+        animation-delay: 1.25s;
+    }
+
+    p5 {
+        animation: popup2 0.5s linear 1;
+        animation-delay: 1.75s;
+    }
+
+    @keyframes popup2 {
+        from {
+            margin-top:-2vh;
+        }
+        to {
+            margin-top:0vh;
+        }
+    }
+
+    @keyframes fadein2 {
+        from {
+            color:#B8D8E0;
+        }
+        to {
+            color:#B8D8E0;
+        }
+    }
+`;
+
+const HideBox = styled.div`
+    margin-top:-3vh;
+    display:flex;
+    justify-content:center;
+    width:17vh;
+    height:3vh;
+    z-index:50;
+    background-color:#ffffff;
+    animation: fadeout2 1.2s linear 1;
+    animation-delay: 1.2s;
+
+    @keyframes fadeout2 {
+        from {
+            border-bottom: 3px solid #5D5D76;
+        }
+        to {
+            border-bottom: 0px solid #5D5D76;
+        }
     }
 `;
