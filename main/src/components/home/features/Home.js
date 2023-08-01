@@ -118,9 +118,9 @@ const Content = styled.div`
         text-align:left;
         vertical-align:middle;
         font-size:1.5vh;
-        height:2vh;
         line-height:2vh;
         color:#4F4F4F;
+        white-space: pre-wrap;
     }
     p2 {
         margin-left:7%;
@@ -128,9 +128,9 @@ const Content = styled.div`
         vertical-align:middle;
         font-size:1.5vh;
         line-height:2vh;
-        height:2vh;
         color:#4F4F4F;
         cursor:pointer;
+        white-space: pre-wrap;
     }
     p2:hover{
         color:#8585EB;

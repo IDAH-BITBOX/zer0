@@ -19,7 +19,6 @@ const Container = styled.div`
 `;
 
 const Title = styled.div`
-    margin-top:10%;
     display:flex;
     justify-content: center;
     width:100%;

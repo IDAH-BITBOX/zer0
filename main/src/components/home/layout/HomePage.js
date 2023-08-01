@@ -29,12 +29,12 @@ const Top = styled.div`
     justify-content:space-between;
 `;
 const Middle = styled.div`
-    height:50%;
+    height:70%;
     display:flex;
     justify-content:space-between;
 `;
 const Bottom = styled.div`
-    height:30%;
+    height:10%;
     display:flex;
     justify-content:space-between;
 `;
