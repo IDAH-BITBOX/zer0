@@ -30,13 +30,13 @@ export const Home =()=> {
                         기술 스택
                     </h3>
                     <p1>
-                        - Python: numpy, numba, pandas, bokeh, fastapi, ... 
+                        - Python: numpy, numba, pandas, bokeh, fastapi 
                     </p1>
                     <p1>
-                        - React: react-table, styled-component, date-fns, ...
+                        - React: react-table, styled-component, date-fns
                     </p1>
                     <p1>
-                        - ETC: diskless-server, linux, docker, AWS, ...
+                        - ETC: diskless-server, linux, docker, AWS
                     </p1>
                 </Content>
             </Top>
@@ -49,7 +49,7 @@ export const Home =()=> {
                         - 키키아이: 1년 (2022.08 ~ 2023.08)
                     </p1>
                     <p1>
-                        -- 데이터 직무: 버스기사 휴게시간 분석, ...
+                        -- 데이터 직무: 버스기사 휴게시간 분석, 대시보드
                     </p1>
                     <p1>
                         -- 웹 직무: 스마트운수솔루션 전반 개발
@@ -60,13 +60,13 @@ export const Home =()=> {
                         취미
                     </h3>
                     <p1>
-                        - 코인노래방, 초보적인 작곡, ...
+                        - 노래 부르기, 초보적인 작곡
                     </p1>
                     <p1>
-                        - 탁구, 테니스(잠정 휴식), 캐치볼, 볼링, ...
+                        - 탁구, 테니스, 캐치볼
                     </p1>
                     <p1>
-                        - PC 게임, 보드게임, ...
+                        - PC 게임, 보드게임
                     </p1>
                 </Content>
             </Bottom>
