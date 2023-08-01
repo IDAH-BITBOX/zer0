@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styled from "styled-components";
+import logo from '../../../img/logo.png';
 
 
 export const Header =()=> {
@@ -11,37 +12,37 @@ export const Header =()=> {
             <LogoImg>
                 <RotImg rotSec="2s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="3s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="5s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="15s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="5s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="3s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
                 <RotImg rotSec="2s">
                     <div>
-                        <img src={"/img/logo.png"} />
+                        <img src={logo} />
                     </div>
                 </RotImg>
             </LogoImg>
