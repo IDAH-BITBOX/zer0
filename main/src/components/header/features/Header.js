@@ -74,10 +74,11 @@ const Title = styled.div`
     display:flex;
     justify-content: center;
     width:100%;
-    height:100%;
+    height:100vh;
     font-size:5vh;
-    color:#5D5D76;
+    color:#FAF9F9;
     font-weight:700;
+    background-color: #041540;
 `;
 
 const HideBox = styled.div`
